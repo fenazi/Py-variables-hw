@@ -18,10 +18,12 @@ print("observations: \n")
 
 
 # ---
-my_dict ={ "Ahmed": 43, "Mohammed": 23}
+my_dict ={"Name":"Ahmed","Age":43}
 print(type(my_dict))
 print(id(my_dict))
-my_dict["Ali"] = "19"
+print(my_dict["Age"])
+my_dict["Age"] = 19
+print(my_dict["Age"])
 print(id(my_dict))
 
 print("observations: \n")
